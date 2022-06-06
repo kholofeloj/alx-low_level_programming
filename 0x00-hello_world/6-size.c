@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * * main - This function prints the sizes of different types
+ * main - This function prints the sizes of different types
  *
  * *Return: This function returns 0
  *
- * */
+ */
 int main(void)
 
 {
