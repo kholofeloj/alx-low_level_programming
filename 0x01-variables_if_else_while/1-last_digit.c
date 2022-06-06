@@ -4,11 +4,14 @@
 
 /*
  * main - this is the start of a function
+ *
  * Description: It will print the last digit stored in (n)
+ * 
  * Return: the function returns 0
  */
 
 int main(void)
+
 {
 	int n, last;
 	srand(time(0));
