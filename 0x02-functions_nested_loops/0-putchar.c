@@ -1,9 +1,9 @@
-include "main.h"
+#include "main.h"
 
-/**
+/*
  * * main - prints out "_putchar" followed by a new line
  * * Return: the function returns 0
- * */
+ */
 int main(void)
 {	
 	_putchar('_');
