@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - function computes the absolute value of an integer
+ * main - _abs function computes the absolute value of an integer
+ *
+ * n is an integer
  *
  * Return: Always return 0
  */
