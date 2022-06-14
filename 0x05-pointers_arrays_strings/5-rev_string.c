@@ -2,31 +2,27 @@
 
 /**
  * rev_string - reverses a string
- * @s: holi
+ * @s: parameter s
  */
 
 void rev_string(char *s)
 {
-	int i = 0;
-	int j = 0;
-	int temp;
-	int length;
+	char temp;
+	int i, length1, length2;
 
-	while (s[i] != 0)
-	{
-		i++;
-	}
+	length1 = 0;
+	length2 = 0;
 
-	length = i;
-	i = 0;
-	j = length - 1;
+	while (s[length1] != '\0')
+		length1++;
 
-	while (i < j)
+	length2 = length1 - 1;
+
+	for (i = 0; i < length1; i++)
 	{
 		temp = s[i];
-		s[i] = s[j];
-		s[j] = temp;
-		i++;
-		j--;
+		s[i] = s[length2];
+		s[length2] = temp;
+		length2 -= 1;
 	}
 }
