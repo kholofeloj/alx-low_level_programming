@@ -4,7 +4,6 @@
  * rev_string - reverses a string
  * @s: parameter s
  */
-
 void rev_string(char *s)
 {
 	char temp;
