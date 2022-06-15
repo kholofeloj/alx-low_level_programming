@@ -1,4 +1,5 @@
 #include "main.h"
+#include <strcat.h>
 
 /**
 * _strncat -> this function appends some characters
@@ -9,6 +10,6 @@
 */
 char *_strncat(char *dest, char *src, int n)
 {
-	_strncat(*dest, *src, n);
+	_strncat(dest, src, n);
 	return (dest);
 }
