@@ -81,10 +81,22 @@ char *string_toupper(char *k);
 
 ### 6. Expect the best. Prepare for the worst. Capitalize on what comes
 
-* This is a ffunction that capitalizes all words of a string.
+* This is a function that capitalizes all words of a string.
 
 ```
 char *cap_string(char *);
+```
+
+
+---
+
+
+### 7. Mozart composed his music not for the elite, but for everybody
+
+* This function that encodes a string into 1337.
+
+```
+char *leet(char *p);
 ```
 
 
