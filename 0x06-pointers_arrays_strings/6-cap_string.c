@@ -21,7 +21,7 @@ char *cap_string(char *p)
 				p[a] = p[a] - 32;
 			i++;
 		}
-		a++
+		a++;
 	}
 	return (p);
 }
