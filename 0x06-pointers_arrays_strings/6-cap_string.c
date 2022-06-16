@@ -17,8 +17,8 @@ char *cap_string(char *p)
 		i = 0;
 		while (i < length)
 		{
-			if ((a == 0 || s[a - 1] == space[i]) && (s[a] >= 97 && s[a] <= 122))
-				s[a] = s[a] - 32;
+			if ((a == 0 || p[a - 1] == space[i]) && (p[a] >= 97 && p[a] <= 122))
+				p[a] = p[a] - 32;
 			i++;
 		}
 		a++
