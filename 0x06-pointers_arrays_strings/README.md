@@ -62,6 +62,18 @@ void reverse_array(int *a, int n);
 ```
 
 
+---
+
+
+### 5. Always look up
+
+* This is a function that changes all lowercase letters of a string to uppercase.
+
+```
+char *string_toupper(char *k);
+```
+
+
 
 
 
