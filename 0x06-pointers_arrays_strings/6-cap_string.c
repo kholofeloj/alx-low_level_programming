@@ -24,4 +24,4 @@ char *cap_string(char *p)
 		p[0] = p[0] - 32;
 
 	return (p);
-	}
+}
