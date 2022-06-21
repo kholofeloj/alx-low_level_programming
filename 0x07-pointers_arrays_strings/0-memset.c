@@ -7,7 +7,7 @@
 * @n: - is an integer
 * Return: returns a string
 */
-har *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int a;
 
