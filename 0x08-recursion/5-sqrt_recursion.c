@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _sqrt - function to find the sqrt
+* _sqart - function to find the sqrt
 * @n: decreasing value
 * @s: natural number
 * Return: natural sqrt or -1 if none
