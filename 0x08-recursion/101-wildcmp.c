@@ -10,7 +10,7 @@
 
 int compr(char *s1, char *s2, int wldcard)
 {
-	if (wild == 1)
+	if (wldcard == 1)
 	{
 		if (s2[0] == '*')
 			return (compr(s1, s2 + 1, 1));
