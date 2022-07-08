@@ -8,4 +8,10 @@ int main(int argc, char *agrv[]);
 ```
 ---
 
+## 1. Silence is argument carried out by other means
 
+#### a program that prints the number of arguments passed into it.
+```
+int main(int argc, char *agrv[]);
+```
+---
