@@ -15,3 +15,11 @@ int main(int argc, char *agrv[]);
 int main(int argc, char *agrv[]);
 ```
 ---
+
+## 12. The best argument against democracy is a five-minute conversation with the average voter
+
+#### a program that prints all arguments it receives.
+```
+int main(int argc, char *agrv[]);
+```
+---
