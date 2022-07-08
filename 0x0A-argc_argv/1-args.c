@@ -9,7 +9,7 @@
 * Return: 0
 */
 
-int printargs(int , char *argv[] argc __attribute__((unused)))
+int printargs(int argc, char *argv[] __attribute__((unused)))
 {
 	printf("%d\n", argc - 1);
 	return (0);
